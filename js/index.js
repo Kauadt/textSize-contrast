@@ -21,7 +21,7 @@ sizeFont = (size) => {
     if (standard >= 81) {
         standard= 81;
     } else if (standard < 9) {
-        padrao = 9;
+        standard = 9;
     }
     document.getElementById("text").style.fontSize = standard + "px";
 }
